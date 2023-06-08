@@ -1,0 +1,1671 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+.wrapper {
+    min-height: 100%;
+	overflow: hidden;
+	display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+.content {
+    flex: 1 1 auto;
+}
+.container {
+    max-width: 1900px;
+    margin: 0 auto;
+}
+header{
+    background:#FF8004;
+}   
+.header_holder{
+    display: flex;
+}
+.header_text{
+    text-align: center;
+    margin: 86px 0 86px 292px;
+}
+.header_text h2{
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.header_logo{
+    margin: 30px 220px 18px 271px;
+    text-align: center;
+}
+.header_logo img{
+    width: 164px;
+    height: 129px;
+}
+.header_logo h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    padding: 12px 0 20px 0;
+}
+.header_logo p{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight:700 ;
+}
+.menu{
+    margin: 86px 240px 86px 0;
+}
+.header_contact a{
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+.plita{
+    margin-top: 50px ;
+    text-align: center;
+}
+.plita_text {
+    width: 500px;
+    border-bottom: 2px solid #FF8004;
+    margin: 0 auto;
+}
+.plita_text h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.plita_info{
+    margin: 5px 0;
+}
+.plita_info p{
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+.product_price{
+    margin: 54px 200px 0 200px;
+}
+.product_cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards{
+    margin: 50px 180px 50px 0;
+}
+.cards:nth-child(3){
+    margin: 50px 0 50px 0;
+}
+.cards:nth-child(6){
+    margin: 50px 0 50px 0;
+}
+.cards:nth-child(9){
+    margin: 50px 0 50px 0;
+}
+.cards:nth-child(12){
+    margin: 50px 0 50px 0;
+}
+.cards:nth-child(15){
+    margin: 50px 0 50px 0;
+}
+.cards:nth-child(11){
+    padding: 55px 0 0 0;
+}
+.cards p{
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin: 10px 0 0 0;
+}
+.stolb{
+    margin: 100px 200px 100px 200px;
+}
+.stolb_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.title{
+    max-width: 500px;
+    border-bottom: 3px solid #FF8004;
+}
+.title h2{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 0 70px;
+}
+.stolb_cards{
+    margin-top: 50px;
+    display: flex;
+}
+.stolb_cards img{
+    height: 500px;
+}
+.cards-text{
+    margin-left: 110px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.cards-text p{
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.title_grape{
+    border-bottom: 3px solid #FF8004;
+}
+.title_grape h2{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 33px;
+    letter-spacing: 2px;
+}
+.grape_text{
+    position: relative;
+    top: -300px;
+    left: 115px;
+    margin-bottom: 50px;
+}
+.grape_text p{
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.grape_cards {
+    display: flex;
+    flex-direction: column;
+}
+.grape_cards img{
+    width: 321px;
+    height: 357px;
+    position: relative;
+    top: 85px;
+    right: 208px;
+}
+.stolb_grape{
+    margin-left: 500px;
+}
+.title_rabica{
+    border-bottom: 3px solid #FF8004;
+    max-width: 500px;
+}
+.title_rabica h2{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 0 0 70px ;
+    letter-spacing: 3px;
+}
+.rabica_cards{
+    display:flex;
+}
+.rabica_cards img{
+    width: 329px;
+    height: 294px;
+}
+.rabica_text p{
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.rabica_text{
+    margin: 40px 0 0 50px;
+}
+.stolb_figura{
+    position: relative;
+    left: 479px;
+}
+.title_figura {
+    border-bottom: 3px solid #FF8004;
+    max-width: 500px;
+}
+.title_figura h2{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 84px 0 84px;
+    letter-spacing: 3px;
+}
+.figura_cards {
+    display: flex;
+}
+.figura_text p{
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.figura_img{
+    position: relative;
+    right: 140px;
+    top: 10px;
+}
+.figura_text{
+    position: relative;
+    top: 50px;
+    right:105px;
+}
+.media_wrapper{
+    display: none;
+}
+.title_plitka{
+    border-bottom: 3px solid #FF8004;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.title_plitka h2{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 74px;
+    letter-spacing: 3px;
+}
+.plitka_wrapper{
+    display: flex;
+}
+.kind_plitka{
+    display: flex;
+    flex-direction: column;
+}
+.kind_plitka img{
+    width: 170px;
+    height: 170px;
+    margin-bottom: 46px ;
+    margin-left: 285px;
+}
+.kind_plitka h2{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin: 50px 0 15px 211px;
+}
+.name_plitka{
+    margin: 50px 0 0 0;
+}
+.name_plitka h2{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 91px;
+    margin-left: 250px;
+}
+.name p{
+    font-size: 24px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-left: 200px;
+}
+.name1{
+    margin-bottom: 190px;
+}
+.name2{
+    margin-bottom: 190px;
+}
+.name3{
+    margin-bottom: 190px;
+}
+.name4{
+    margin-bottom: 190px;
+}
+.name5{
+    margin-bottom: 190px;
+}
+.name6{
+    margin-bottom: 190px;
+}
+.size_plitka{
+    margin: 50px 0 0 0;
+}
+.size_plitka h2{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-left: 250px;
+}
+.size_text p{
+    font-size: 24px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-left: 160px;
+    padding: 0 0 20px 0;
+}
+.size1 {
+    margin-top: 47px ;
+}
+.size2 {
+    margin-top: 80px;
+}
+.size3 {
+    margin-top: 83px;
+}
+.size4 {
+    margin-top: 83px;
+}
+.size5 {
+    margin-top: 105px;
+}
+.size6 {
+    margin-top: 125px;
+}
+.size7 {
+    margin-top: 140px;
+}
+.price_plitka{
+    margin: 50px 0 0 0;
+}
+.price_plitka h2{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-left: 250px;
+}
+.price_text p{
+    font-size: 24px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-left: 160px;
+    padding: 0 0 20px 0;
+}
+.price_text{
+    margin-top: 50px;
+}
+.suputni{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.suput_title{
+    border-bottom: 3px solid #FF8004;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.suput_title h2{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 151px 0 151px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.suput_wrapper{
+    display: flex;
+    margin: 65px 0 0 0;
+    flex-wrap: wrap;
+}
+.suputni_cards{
+    display: flex;
+}
+.suput_text p{
+    font-size: 24px;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+.text_1{
+    margin-left:82px ;
+}
+.text_2{
+    margin-left:90px ;
+}
+.text_3{
+    margin-left:63px ;
+}
+.text_4{
+    margin-left:102px ;
+}
+.suput1{
+    margin: 0 430px 148px 208px;
+}
+.suput2{
+    margin-bottom: 148px;
+}
+.suput3{
+    margin: 0 412px 0 208px;
+}
+footer{
+    background: #ACAAA9;
+}
+.footer_info{
+    width: 100%;
+    height: 380px;
+    display: flex;
+}
+.footer_logo{
+    text-align: center;
+    margin: 86px 256px 87px 257px;
+}
+.footer_logo h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 25px 0;
+}
+.footer_logo p{
+    font-size: 16px;
+}
+.footer_list1{
+    margin: 82px 172px 93px 0;
+}
+.footer_list1 li{
+    font-size: 20px;
+    margin: 25px 0 0 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.footer_list1 a{
+    text-decoration: none;
+    color: black;
+}
+.footer_price {
+    margin: 59px 0 150px 0;
+}
+.footer_price li{
+    font-size: 20px;
+    margin: 25px 0 0 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.footer_price a{
+    text-decoration: none;
+    color: black;
+}
+.footer_contact{
+    margin: 80px 154px 104px 156px;
+}   
+.contact{
+    margin: 40px 0 40px 90px;
+}
+.contact li{
+    font-size: 22px;
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+.post a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+@media (max-width:1990px){
+    .content{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .container{
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    header{
+        background:#FF8004;
+    }
+    .header_holder{
+        margin: 0 auto;
+    }
+    .header_text{
+        width: 480px;
+        margin: 0 auto;
+        padding: 110px 0 0 0 ;
+    }
+    .header_logo{
+        width: 480px;
+        margin: 0 auto;
+        padding: 50px 0 50px 0 ;
+    }
+    .header_contact{
+        width: 480px;
+        margin: 0 auto;
+    }
+    .menu{
+        margin: 110px 0 0 0;
+    }
+    .product_cards{
+        width: 1440px;
+        margin: 0 auto;
+        display: flex;
+    }
+    .cards{
+        margin: 50px 150px 50px 40px;
+    }
+    .cards:nth-child(3){
+        margin: 50px 150px 50px 30px;
+    }
+    .cards:nth-child(6){
+        margin: 50px 150px 50px 30px;
+    }
+    .cards:nth-child(9){
+        margin: 50px 150px 50px 30px;
+    }
+    .cards:nth-child(12){
+        margin: 50px 150px 50px 30px;
+    }
+    .cards:nth-child(15){
+        margin: 50px 150px 50px 30px;
+    }
+    .stolb{
+        width: 1440px;
+        margin: 0 auto;
+    }
+    .stolb_wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .stolb_clasik{
+        width: 570px;
+        margin: 0 auto;
+    }
+    .stolb_grape{
+        width: 600px;
+        height: 500px;
+        margin: 0 auto;
+    }
+    .title_grape{
+        border-bottom: 3px solid #FF8004;
+        width: 600px;
+    }
+    .title_grape h2{
+        font-size: 30px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 0 100px;
+        letter-spacing: 2px;
+    }
+    .stolb_rabica{
+        width: 590px;
+        margin: 0 auto;
+    }
+    .rabica_cards{
+        display:flex;
+    }
+    .rabica_cards img{
+        width: 329px;
+        height: 294px;
+    }
+    .rabica_text{
+        margin: 40px 0 0 50px;
+    }
+    .stolb_figura{
+        width: 600px;
+        height: 400px;
+        position: relative;
+        right: 900px;
+    }
+    .title_figura {
+        border-bottom: 3px solid #FF8004;
+        max-width: 500px;
+    }
+
+    .figura_cards {
+        display: flex;
+    }
+
+    .figura_img{
+        position: relative;
+        right: 140px;
+        top: 10px;
+    }
+    .figura_text{
+        position: relative;
+        top: 50px;
+        right:105px;
+    }
+    .plitka_wrapper{
+        margin: 50px 0 0 0;
+    }
+    .kind_plitka{
+        width: 480px;
+        margin: 0 auto;
+    }
+    .kind_plitka h2{
+        margin: 0 auto;
+    }
+    .kind_plitka img{
+        margin: 0 auto;
+        margin-top:50px ;
+        margin-bottom:50px ;
+    }
+    .name_plitka{
+        width: 480px;
+        margin: 0 auto;
+    }
+    .name_plitka h2{
+        text-align: center;
+        margin: 0 0 0 0;
+    }
+    .name p{
+        margin: 0 auto;
+    }
+    .name1{
+        margin-top:120px;
+        margin-bottom:250px ;
+    }
+    .name2{
+        margin-bottom: 250px;
+    }
+    .name3{
+        margin-top:120px;
+        margin-bottom:250px ;
+    }
+    .name4{
+        margin-top:120px;
+        margin-bottom:250px ;
+    }
+    .name5{
+        margin-top:120px;
+        margin-bottom:250px ;
+    }
+    .name6{
+        margin-top:0px;
+        margin-bottom:220px ;
+    }
+    .size_plitka{
+        width: 480px;
+        margin: 0 auto;
+    }
+    .size_plitka h2{
+        font-size: 30px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .size_text p{
+        font-size: 24px;
+        letter-spacing: 3px;
+        text-align: center;
+        margin-left: 0;
+        padding: 0 0 20px 0;
+    }
+    .size1 {
+        margin-top: 75px ;
+    }
+    .size2 {
+        margin-top: 150px;
+    }
+    .size3 {
+        margin-top: 140px;
+    }
+    .size4 {
+        margin-top: 135px;
+    }
+    .size5 {
+        margin-top: 170px;
+    }
+    .size6 {
+        margin-top: 180px;
+    }
+    .size7 {
+        margin-top: 180px;
+    }
+    .suputni{
+        width: 1440px;
+        margin: 0 auto;
+    }
+    .suputni_cards{
+        width: 520px;
+        margin: 0 auto;
+        padding: 50px 0;
+    }
+    .footer_logo{
+        width: 360px;
+        margin: 0 auto;
+        padding: 100px 0 0 0 ;
+    }
+    .footer_menu{
+        width: 360px;
+        margin: 0 auto;
+    }
+    .footer_list1{
+        margin: 0 0 0 0;
+        text-align: center;
+        padding: 75px 0 0 0 ;
+    }
+    .footer_price{
+        width: 360px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 75px 0 0 0 ;
+    }
+    .footer_contact{
+        width: 360px;
+        margin: 0 auto;
+        padding: 75px 0 0 0 ;
+    }
+}
+@media  (max-width: 1439px){
+    .content{
+        width: 100%;
+    }
+    .container{
+        max-width: 990px;
+        margin: 0 auto;
+    }
+    .header_contact a{
+        text-decoration: none;
+        color: black;
+        font-size: 24px;
+        font-weight: 800;
+        letter-spacing: 2px;
+    }
+    .header_text h2{
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    .product_price{
+        width: 990px;
+        margin: 0 auto;
+    }
+    .product_cards{
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+    }
+    .cards{
+        width: 380px;
+        margin: 50px 0 0 0;
+    }
+    .cards:nth-child(3){
+        margin: 50px 0 0 0;
+    }
+    .cards:nth-child(6){
+        margin: 50px 0 0 0;
+    }
+    .cards:nth-child(9){
+        margin: 50px 0 0 0;
+    }
+    .cards:nth-child(12){
+        margin: 50px 0 0 0;
+    }
+    .cards:nth-child(15){
+        margin: 50px 0 0 0;
+    }
+    .stolb{
+        width: 990px;
+        margin: 0 auto;
+    }
+    .stolb_wrapper{
+        margin: 50px 0 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .stolb_clasik{
+        width: 570px;
+        margin: 0 auto;
+    }
+    .stolb_grape{
+        width: 600px;
+        height: 500px;
+        margin: 0 auto;
+    }
+    .grape_cards img{
+        width: 321px;
+        height: 357px;
+        position: relative;
+        top: 85px;
+        right: 100px;
+    }
+    .title_grape{
+        border-bottom: 3px solid #FF8004;
+        width: 600px;
+    }
+    .title_grape h2{
+        font-size: 30px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 0 100px;
+        letter-spacing: 2px;
+    }
+    .stolb_rabica{
+        width: 590px;
+        margin: 0 auto;
+    }
+    .title_rabica{
+        margin: 0 auto;
+    }
+    .rabica_cards{
+        display:flex;
+    }
+    .rabica_cards img{
+        width: 329px;
+        height: 294px;
+    }
+    .rabica_text{
+        margin: 40px 0 0 50px;
+    }
+    .stolb_figura{
+        width: 600px;
+        height: 400px;
+        position: relative;
+        left: 250px;
+    }
+    .title_figura {
+        border-bottom: 3px solid #FF8004;
+        max-width: 500px;
+    }
+    .figura_cards {
+        display: flex;
+    }
+    .figura_img{
+        position: relative;
+        right: 140px;
+        top: 10px;
+    }
+    .figura_text{
+        position: relative;
+        top: 50px;
+        right:105px;
+    }
+    .plitka_wrapper{
+        margin: 50px 0 0 0;
+    }
+    .suputni{
+        width: 990px;
+        margin: 0 auto;
+    }
+    .suputni_cards{
+        width: 470px;
+        margin: 0 auto;
+        padding: 50px 0;
+    }
+    .suputni_cards img{
+        width: 229px;
+        height: 174px;
+    }
+    .text_1{
+        margin-left:50px ;
+    }
+    .text_2{
+        margin-left:30px ;
+    }
+    .text_3{
+        margin-left:40px ;
+    }
+    .text_4{
+        margin-left:50px ;
+    }
+}
+@media  (max-width: 989px){
+    .content{
+        width: 100%;
+    }
+    .container{
+        max-width: 750px;
+        margin: 0 auto;
+    }
+    .header_contact a{
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: 800;
+        letter-spacing: 1px;
+    }
+    .header_text h2{
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .product_price{
+        width: 750px;
+        margin: 0 auto;
+    }
+    .product_cards{
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+    }
+    .stolb{
+        width: 750px;
+        margin: 0 auto;
+    }
+    .stolb_wrapper{
+        margin: 50px 0 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .stolb_clasik{
+        width: 570px;
+        margin: 0 auto;
+    }
+    .stolb_grape{
+        width: 600px;
+        height: 500px;
+        margin: 0 auto;
+    }
+    .grape_cards img{
+        width: 321px;
+        height: 357px;
+        position: relative;
+        top: 85px;
+        right: 30px;
+    }
+    .title_grape{
+        border-bottom: 3px solid #FF8004;
+        width: 600px;
+    }
+    .title_grape h2{
+        font-size: 30px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 0 100px;
+        letter-spacing: 2px;
+    }
+    .stolb_rabica{
+        width: 590px;
+        margin: 0 auto;
+    }
+    .title_rabica{
+        margin: 0 auto;
+    }
+    .rabica_cards{
+        display:flex;
+    }
+    .rabica_cards img{
+        width: 329px;
+        height: 294px;
+    }
+    .rabica_text{
+        margin: 40px 0 0 50px;
+    }
+    .stolb_figura{
+        width: 600px;
+        height: 400px;
+        position: relative;
+        left: 130px;
+    }
+    .title_figura {
+        border-bottom: 3px solid #FF8004;
+        max-width: 500px;
+    }
+    .figura_cards {
+        display: flex;
+    }
+    .figura_img{
+        position: relative;
+        right: 140px;
+        top: 10px;
+    }
+    .figura_text{
+        position: relative;
+        top: 50px;
+        right:105px;
+    }
+    .plitka_wrapper{
+        margin: 50px 0 0 0;
+    }
+    .kind_plitka h2{
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+    .name_plitka h2{
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+    .size_plitka h2{
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+    .size1 {
+        margin-top: 75px ;
+    }
+    .size2 {
+        margin-top: 120px;
+    }
+    .size3 {
+        margin-top: 120px;
+    }
+    .size4 {
+        margin-top: 116px;
+    }
+    .size5 {
+        margin-top: 150px;
+    }
+    .size6 {
+        margin-top: 180px;
+    }
+    .size7 {
+        margin-top: 160px;
+    }
+    .suputni{
+        width: 750px;
+        margin: 0 auto;
+    }
+    .suputni_cards{
+        width: 470px;
+        margin: 0 auto;
+        padding: 50px 0;
+    }
+    .suputni_cards img{
+        width: 229px;
+        height: 174px;
+    }
+    .text_1{
+        margin-left:50px ;
+    }
+    .text_2{
+        margin-left:30px ;
+    }
+    .text_3{
+        margin-left:40px ;
+    }
+    .text_4{
+        margin-left:50px ;
+    }
+    .footer_logo{
+        width: 250px;
+        margin: 0 auto;
+        padding: 100px 0 0 0 ;
+    }
+    .footer_menu{
+        width: 250px;
+        margin: 0 auto;
+    }
+    .footer_list1{
+        margin: 0 0 0 0;
+        text-align: center;
+        padding: 75px 0 0 0 ;
+    }
+    .footer_price{
+        width: 250px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 75px 0 0 0 ;
+    }
+    .footer_contact{
+        width: 250px;
+        margin: 0 auto;
+        padding: 75px 0 0 0 ;
+    }
+    .footer_logo h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        margin: 25px 0;
+    }
+    .footer_logo p{
+        font-size: 14px;
+    }
+    .footer_menu{
+        display: none;
+    }
+    .footer_price li{
+        font-size: 18px;
+        margin: 25px 0 0 0;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .footer_price a{
+        text-decoration: none;
+        color: black;
+    }  
+    .contact li{
+        font-size: 18px;
+    }
+    .contact a{
+        text-decoration: none;
+        color: black;
+    }
+    .post a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+}
+@media  (max-width: 749px){
+    .content{
+        width: 100%;
+    }
+    .container{
+        max-width: 480px;
+        margin: 0 auto;
+    }
+    .header_holder {
+        display: flex;
+        flex-direction: column;
+        width: 480px;
+        margin: 0 auto;
+    }
+    .header_text{
+        width: 480px;
+        margin: 0 auto;
+        padding: 20px 0 20px 0 ;
+    }
+    .header_logo{
+        width: 480px;
+        margin: 0 auto;
+        padding: 0px 0 0px 0 ;
+    }
+    .header_contact{
+        width: 480px;
+        margin: 0 auto;
+    }
+    .menu {
+        text-align: center;
+        margin: 20px 0 20px 0 ;
+    }
+    .plita_text h1{
+        font-size: 26px;
+    }
+    .plita_info p{
+        font-size: 20px;
+    }
+    .product_price{
+        width: 480px;
+        margin: 0 auto;
+    }
+    .stolb{
+        width: 480px;
+        margin: 0 auto;
+    }
+    .stolb_wrapper{
+        margin: 50px 0 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .stolb_clasik{
+        width: 570px;
+        margin: 0 auto;
+    }
+    .title{
+        width: 450px;
+    }
+    .title h2{
+        padding: 0 80px;
+        font-size: 26px;
+    }
+    .stolb_cards img{
+        width: 200px;
+        height: 300px;
+    }
+    .cards-text p{
+        font-size: 18px;
+    }
+    .stolb_grape{
+        width: 600px;
+        height: 500px;
+        margin: 0 auto;
+    }
+    .grape_cards img{
+        width: 260px;
+        height: 290px;
+        position: relative;
+        top: 85px;
+        right: 0px;
+    }
+    .title_grape{
+        border-bottom: 3px solid #FF8004;
+        width: 480px;
+    }
+    .title_grape h2{
+        font-size: 26px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 0 0 0 0;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .grape_text{
+        margin: 50px 50px 0 0;
+    }
+    .grape_text p{
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: 1px;
+        margin: 0 0 0 0;
+    }
+    .stolb_rabica{
+        width: 480px;
+        margin: 0 ;
+    }
+    .title_rabica{
+        margin: 0 auto;
+    }
+    .title_rabica h2{
+        font-size: 26px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 0 0 0 0;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .rabica_cards{
+        display:flex;
+    }
+    .rabica_cards img{
+        width: 270px;
+        height: 250px;
+    }
+    .rabica_text{
+        margin: 40px 0 0 30px;
+    }
+    .rabica_text p {
+        font-size: 18px;
+    }
+    .stolb_figura{
+        width: 480px;
+        height: 400px;
+        position: relative;
+        left: 50px;
+    }
+    .title_figura {
+        border-bottom: 3px solid #FF8004;
+        max-width: 480px;
+        position: relative;
+        right: 50px;
+    }
+    .title_figura h2{
+        font-size: 26px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 0 0 0 0;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .figura_cards {
+        display: flex;
+    }
+    .figura_img img{
+        width: 280px;
+        height: 250px;
+    }
+    .figura_img{
+        position: relative;
+        right: 120px;
+        top: 10px;
+    }
+    .figura_text{
+        position: relative;
+        top: 50px;
+        right:15px;
+    }
+    .figura_text p {
+        font-size: 18px;
+    }
+    .title_plitka h2{
+        font-size: 26px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 0 105px;
+        letter-spacing: 1px;
+    }
+    .plitka_wrapper{
+        display:none;
+    }
+    .plitka{
+        width: 480px;
+        margin: 0 auto;
+    }
+    .title_plitka h2{
+        font-size: 26px;
+    }
+    .media_wrapper{
+        display: block;
+    }
+    .media_plitka {
+        text-align: center;
+        margin: 40px 0 0 0;
+    }
+    .media_plitka img{
+        width: 150px;
+        height: 150px;
+    }
+    .media_plitka p{
+        padding: 10px 0 0 0;
+        font-size: 20px;
+    }
+    .suputni{
+        width: 480px;
+        margin: 0 auto;
+    }
+    .suput_title h2{
+        font-size: 26px;
+        letter-spacing: 1px;
+        margin: 40px 0 0 0;
+    }
+    .suput_title {
+        margin: 0 0 -50px 0;
+    }
+    .suputni_cards{
+        width: 470px;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+    .suputni_cards img{
+        width: 200px;
+        height: 154px;
+        margin: 0 0 0 10px;
+    }
+    .suput_text p{
+        font-size: 18px;
+    }
+    .text_1{
+        margin-left:60px ;
+    }
+    .text_2{
+        margin-left:40px ;
+    }
+    .text_3{
+        margin-left:50px ;
+    }
+    .text_4{
+        margin-left:60px ;
+    }
+    .footer_info{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_logo{
+        padding: 50px 0 0 0;
+    }
+    .footer_price {
+        padding: 0 0 0 0;
+    }
+    .footer_contact {
+        padding: 25px 0 25px 0;
+    }
+    .contact{
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+@media (max-width:479px){
+    .container{
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    .header_holder {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        margin: 0 auto;
+    }
+    .header_text{
+        width: 320px;
+        margin: 0 auto;
+        padding: 20px 0 20px 0 ;
+    }
+    .header_logo{
+        width: 320px;
+        margin: 0 auto;
+        padding: 0px 0 0px 0 ;
+    }
+    .header_contact{
+        width: 320px;
+        margin: 0 auto;
+    }
+    .menu {
+        text-align: center;
+        margin: 20px 0 20px 0 ;
+    }
+    .plita_text {
+        width: 320px;
+        border-bottom: 2px solid #FF8004;
+        margin: 0 auto;
+    }
+    .plita_text h1{
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+    .plita_info p{
+        font-size: 18px;
+    }
+    .product_price{
+        width: 320px;
+    }
+    .product_cards{
+        margin: 0 auto;
+    }
+    .cards {
+        width: 320px;
+        margin: 0 auto;
+    }
+    .cards p{
+        width: 220px;
+        font-size: 20px;
+        margin: 0 0 30px 20px;
+    }
+    .cards img{
+        width: 250px;
+        margin: 0 0 30px 0 ;
+    }
+    .cards:nth-child(3){
+        margin: 30px 0 0 30px;
+    }
+    .cards:nth-child(6){
+        margin: 30px 0 0 30px;
+    }
+    .cards:nth-child(9){
+        margin: 30px 0 0 30px;
+    }
+    .cards:nth-child(12){
+        margin: 30px 0 0 30px;
+    }
+    .cards:nth-child(15){
+        margin: 30px 0 0 30px;
+    }
+    .stolb{
+        width: 320px;
+        margin: 0 auto;
+    }
+    .stolb_wrapper{
+        margin: 50px 0 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .stolb_clasik{
+        margin: 0 ;
+    }
+    .title{
+        width: 320px;
+    }
+    .title h2{
+        text-align: center;
+        padding: 0 20px;
+        font-size: 22px;
+    }
+    .stolb_cards img{
+        width: 150px;
+        height: 200px;
+    }
+    .cards-text{
+        margin-left: 15px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .cards-text p{
+        font-size: 16px;
+    }
+    .stolb_grape{
+        width: 320px;
+        height: 270px;
+        position: relative;
+        right: 150px;
+    }
+    .grape_cards img{
+        width: 160px;
+        height: 190px;
+        position: relative;
+        top: 45px;
+        left: 30px;
+    }
+    .title_grape{
+        position: relative;
+        left: 30px;
+        border-bottom: 3px solid #FF8004;
+        width: 320px;
+    }
+    .title_grape h2{
+        font-size: 22px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 0 0 0 0;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .grape_text{
+        position: relative;
+        top: -200px;
+        margin: 20px 0px 0 0;
+    }
+    .grape_text p{
+        text-align: center;
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin: 0 0 0 0;
+    }
+    .stolb_rabica{
+        width: 320px;
+        margin: 0 ;
+    }
+    .title_rabica{
+        margin: 0 auto;
+    }
+    .title_rabica h2{
+        font-size: 22px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 0 0 0 0;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .rabica_cards{
+        display:flex;
+    }
+    .rabica_cards img{
+        width: 160px;
+        height: 170px;
+    }
+    .rabica_text{
+        margin: 40px 0 0 30px;
+    }
+    .rabica_text p {
+        font-size: 18px;
+    }
+    .stolb_figura{
+        width: 320px;
+        height: 300px;
+        position: relative;
+        left: 50px;
+    }
+    .title_figura {
+        border-bottom: 3px solid #FF8004;
+        max-width: 320px;
+        position: relative;
+        right: 50px;
+    }
+    .title_figura h2{
+        font-size: 22px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 0 0 0 0;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .figura_cards {
+        display: flex;
+    }
+    .figura_img img{
+        width: 200px;
+        height: 180px;
+    }
+    .figura_img{
+        position: relative;
+        right: 90px;
+        top: 10px;
+    }
+    .figura_text{
+        position: relative;
+        top: 40px;
+        right:55px;
+    }
+    .figura_text p {
+        font-size: 18px;
+    }
+    .title_plitka h2{
+        font-size: 26px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 0 105px;
+        letter-spacing: 1px;
+    }
+    .plitka_wrapper{
+        display:none;
+    }
+    .plitka{
+        width: 320px;
+        margin: 0 auto;
+    }
+    .title_plitka h2{
+        text-align: center;
+        padding: 0 0 0 0;
+        font-size: 22px;
+    }
+    .media_wrapper{
+        display: block;
+    }
+    .media_plitka {
+        text-align: center;
+        margin: 40px 0 0 0;
+    }
+    .media_plitka img{
+        width: 130px;
+        height: 130px;
+    }
+    .media_plitka p{
+        padding: 10px 0 0 0;
+        font-size: 18px;
+    }
+    .suputni{
+        width: 320px;
+        margin: 0 auto;
+    }
+    .suput_title h2{
+        font-size: 26px;
+        letter-spacing: 1px;
+        margin: 40px 0 0 0;
+    }
+    .suput_title {
+        margin: 0 0 -50px 0;
+    }
+    .suputni_cards{
+        width: 320px;
+        margin: 0 auto;
+        padding: 30px 0;
+        padding: 20px 0;
+    }
+    .suputni_cards img{
+        width: 100px;
+        height: 100px;
+        margin: 0 0 0 10px;
+    }
+    .suput_text p{
+        font-size: 18px;
+    }
+    .text_1{
+        margin-left:50px ;
+    }
+    .text_2{
+        margin-left:30px ;
+    }
+    .text_3{
+        margin-left:40px ;
+    }
+    .text_4{
+        margin-left:50px ;
+    }
+}
